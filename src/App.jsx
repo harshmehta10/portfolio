@@ -1,9 +1,6 @@
 import { useRef, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import { FaFileDownload } from "react-icons/fa";
-import { LiaPrayingHandsSolid } from "react-icons/lia";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
@@ -12,7 +9,7 @@ import deskdreams from "./assets/deskdreams.png";
 import todolist from "./assets/todolist.png";
 import tictactoe from "./assets/tictactoe.png";
 import developer from "./assets/developer.png";
-
+import programme from "./assets/programme.png";
 function App() {
   const contect = useRef();
   const skills = useRef();
@@ -96,11 +93,7 @@ function App() {
       <header className="m-2">
         <nav className="m-2">
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-            <img
-              className="w-16"
-              src="src/assets/programmer-BJDeeD1z.png"
-              alt="programmar img"
-            />
+            <img className="w-16" src={programme} alt="programmar img" />
 
             <ul className="flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0 cursor-pointer">
               <li className="hover:text-[#2364d2] hover:underline underline-offset-8 ">
