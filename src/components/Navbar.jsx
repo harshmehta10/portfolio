@@ -43,14 +43,7 @@ const Navbar = ({ contectRef, skillsRef, projectsRef, certificateRef }) => {
           >
             PROJECTS
           </li>
-          <li
-            className="hover:text-[#2364d2] hover:underline underline-offset-8 "
-            onClick={() => {
-              certificateRef.current?.scrollIntoView({ behavior: "smooth" });
-            }}
-          >
-            CERTIFICATION
-          </li>
+
           <li
             className="hover:text-[#2364d2] hover:underline underline-offset-8 "
             onClick={() => {
