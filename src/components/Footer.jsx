@@ -1,10 +1,8 @@
 import React from "react";
 import { useRef } from "react";
-const Footer = () => {
-  const contect = useRef();
-
+const Footer = ({ contectRef }) => {
   return (
-    <footer className="bg-gray-800 text-white" ref={contect}>
+    <footer className="bg-gray-800 text-white" ref={contectRef}>
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 className="mb-4 text-4xl md:text-5xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
           Contact Me
