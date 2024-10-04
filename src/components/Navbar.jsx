@@ -3,7 +3,7 @@ import { FaFileDownload } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
 import programme from "../assets/programme.png";
-import resume from "../assets/Resume.pdf";
+import resume from "../assets/resume.pdf";
 
 const Navbar = ({ contectRef, skillsRef, projectsRef, certificateRef }) => {
   const [toggle, setToggle] = useState(false);
